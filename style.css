@@ -1,0 +1,177 @@
+.home {
+    font-size: 35px;
+    background: rgb(139, 213, 162);
+    border-radius: 10px;
+}
+
+.logoImg {
+    height: 400px;
+    width: 400px;
+    padding: 4rem 0rem;
+    border-radius: 50%;
+}
+
+.home h2 {
+    font-size: 35px;
+    padding: 0rem 7rem;
+    margin: -10px 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+
+.ids {
+    justify-items: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 70px;
+}
+
+.mainBlock {
+    display: flex;
+    column-gap: 25px;
+    /* background: #000; */
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.logIn {
+    background: rgb(163, 106, 217);
+    padding: 9.5rem 0rem;
+    border-radius: 10px;
+    justify-items: center;
+    min-width: fit-content;
+    max-width: max-content;
+    height: fit-content;
+    max-height: max-content;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.userData {
+    padding: 2.5rem 1.75rem;
+}
+
+.user {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.fgPwd {
+    font-size: 15px;
+    margin-right: 220px;
+    color: #000;
+    font-weight: 600;
+}
+
+.password {
+    padding: 0.75rem 1.75rem;
+}
+
+.btn {
+    padding: 1.5rem 1rem 2rem;
+    margin-right: 50%;
+    margin-left: 50%;
+    position: inherit;
+}
+
+.submitBtn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Sign UP page */
+
+.signUp {
+    background: rgb(245, 50, 76);
+    padding: 0.5rem 0rem;
+    border-radius: 10px;
+    justify-items: center;
+    min-width: fit-content;
+    max-width: max-content;
+    height: fit-content;
+    max-height: max-content;
+}
+
+.userData1 {
+    padding: 1.32rem 1.75rem;
+}
+
+.pwd {
+    padding: 0.75rem 1.75rem;
+}
+
+.pwd1 {
+    padding: 0.75rem 1.75rem;
+}
+
+.signUpBtn {
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.signUpBtn:hover {
+    background-color: #000;
+    color: #fff;
+
+}
+
+.signupbtn {
+    padding: 1rem 1rem 1rem 0.5rem;
+    margin-right: 50%;
+    margin-left: 50%;
+    position: inherit;
+}
+
+/* .signupLinks{
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    justify-items: center;
+}
+.externalLink{
+    padding: 1.5rem 0rem;
+    border-radius: 20px;
+    width: fit-content;
+    color: rgb(1, 1, 1);
+
+} */
+.signupLogos {
+    display: flex;
+    /* height: 100px; */
+    justify-content: center;
+    column-gap: 50px;
+    padding: 5rem 1rem;
+}
+
+.signupLogos img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 22px;
+}
