@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/output.css" rel="stylesheet">
+</head>
+
+<body class="overflow-hidden bg-amber-50">
+    <div class="title flex">
+        <img src="media/logo.png" alt="title logo" class="logo">
+        <h3 class="text-3xl font-bold font-serif">userCalls</h3>
+    </div>
+    <div class="max-h-auto flex">
+        <ul>
+            <li class="sidebar" onclick="goToPage('index.html')"><img src="media/chat.png" alt="chat_logo"> chats</li>
+            <li class="sidebar" onclick="goToPage('groups.html')"><img src="media/groupLogo.png" alt="group_logo"> groups</li>
+            <li class="sidebar" onclick="goToPage('calls.html')"><img src="media/call.png" alt="call_logo"> calls</li>
+            <li class="sidebar" onclick="goToPage('status.html')"><img src="media/status.png" alt="status_logo"> status</li>
+        </ul>
+        <div class="chats bg-amber-50 rounded-[5px] min-w-[292px] h-auto border-[2px] border-amber-100">
+            <div class="chats_title flex justify-around p-[15px]">
+                <h2 class="mr-20 text-2xl text-black font-semibold">Groups</h2>
+                <div class="hover:bg-amber-100 rounded-[5px]">
+                    <img src="media/edit.png" alt="edit_logo">
+                </div>
+
+            </div>
+            <div class="searchbox grid px-3 py-3 border-2px border-amber-100">
+                <input type="text" placeholder="search or start a group chat" class="search_box">
+            </div>
+            <div class="groups">
+                <div class="member">
+                    <img src="media/profilePic.png" alt="profilePic" class="h-12 mr-4 bg-white rounded-full">
+                    <div class="grid">
+                        <h3 class="text-uName text-black mr-3">group</h3>
+                        <p class="text-last">You: hello guys...</p>
+                    </div>
+                    <p class="text-last ml-[60px] mt-[10px]"> 12:19</p>
+                </div>
+            </div>
+        </div>
+        <div class="message border-[2px] border-amber-100">
+            <div class="message border-[2px] border-amber-100">
+                <div class="msg_container">
+                    <h3>Click on the group to chat </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="group.js"></script>
+</body>
+
+</html>

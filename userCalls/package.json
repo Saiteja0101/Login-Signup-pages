@@ -1,0 +1,19 @@
+{
+  "name": "usercalls",
+  "version": "1.0.0",
+  "description": "it is a communication application clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  },
+  "dependencies": {
+    "tailwind-scrollbar": "^3.1.0",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  }
+}

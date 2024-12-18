@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo{
+    height: 40px;
+}
+.sidebar{
+    @apply pl-[0.5rem] pt-[3px] font-[700] text-[12px] text-start list-none hover:bg-amber-100 rounded-[5px];
+}
+.sidebar img{
+    margin-top: 20px;
+    height: 20px;
+    
+}
+.search_box{
+    @apply text-black text-center justify-center rounded-[5px] h-[40px] bg-blue-50;
+}
+.chats_title img{
+    margin-top: 8px;
+    margin-right: 2px;
+    height: 20px;
+    justify-content: flex-end;
+}
+.searchbox input{
+    border: 2px solid #FDE68A;
+}
+.chatMembers{
+    @apply px-5 h-[900px] max-w-96 overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-thumb-slate-500 scrollbar-track-slate-500 scrollbar-hide;
+}
+.member {
+    @apply flex text-black hover:bg-amber-100 rounded-[5px] px-[1rem] py-[1rem] cursor-default;
+}
+.message{
+    @apply bg-amber-50 rounded-[8px] min-w-[1200px] max-w-[1200px] min-h-full max-h-full;
+}
+.message_frame{
+    @apply h-[60px] bg-amber-50 border-[2px] border-amber-100;
+}
+.mem_frame_images{
+    @apply flex justify-end gap-x-4 mt-3;
+}
+.group{
+    @apply h-6 mr-3;
+}
+.user_input {
+    @apply bg-amber-50 bottom-0 h-[40px] ml-0 flex justify-start w-fit fixed;
+}
+.user_input_img{
+    @apply h-4 mt-[12px] ml-[12px] hover:bg-amber-100 rounded-[5px];
+}
+.msg_container{
+    @apply h-screen grid place-items-center items-center text-center;
+}
